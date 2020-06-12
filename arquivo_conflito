@@ -1,10 +1,10 @@
 # language: pt
 @ambiente
-Funcionalidade: Avaliar app android
+Funcionalidade: Avaliar app Teste
 
   @status @plataforma @ambiente @jira @HML
   Cenário: Fluxo de avaliação do APP Meu APP Android
-    Dado acesso "Avalie o App" no menu 'MEU APP'
+    Dado acesso "Avalie o App" no menu 'COMPRAS'
     Quando avalio o APP como 'Incrível'
     E faça alguma coisa
     Então sou direcionado para avaliar o APP na loja 123
