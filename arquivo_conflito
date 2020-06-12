@@ -3,8 +3,9 @@
 Funcionalidade: Avaliar app Teste compras para conflito
 
   @status @plataforma @ambiente @jira @HML @coisanova
-  Cenário: Fluxo de avaliação do APP Meu APP Android
+  Cenário: Fluxo de avaliação do APP Meu APP Teste
     Dado acesso "Avalie o App" no menu 'COMPRAS'
-    Quando avalio o APP como 'Incrível'
+    Quando avalio o APP como 'Legal'
     E faça alguma coisa
     Então sou direcionado para avaliar o APP na loja 123
+
