@@ -1,10 +1,11 @@
-# language: pt
-@ambiente
-Funcionalidade: Avaliar app Teste
+# language: pt 
+@ambiente @ambiente
+Funcionalidade: Avaliar app Teste compras para conflito
 
-  @status @plataforma @ambiente @jira
+  @status @plataforma @ambiente @jira @HML @coisanova
   Cenário: Fluxo de avaliação do APP Meu APP Teste
     Dado acesso "Avalie o App" no menu 'COMPRAS'
     Quando avalio o APP como 'Legal'
-    E acesso o link para avaliar na Play Store
-    Então sou direcionado para avaliar o APP na loja
+    E faça alguma coisa
+    Então sou direcionado para avaliar o APP na loja 123
+
