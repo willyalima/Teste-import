@@ -11,7 +11,7 @@ Funcionalidade: Avaliar app Teste compras para conflito de PR
 
   @status @plataforma @ambiente @jira @HML @coisanova
   Cenário: Mensagem de Upgrade indisponível para cliente com pacote de 25 Mb
-    Dado que autentico pelo login com um usuário "banda larga solo 25mb"
+    Dado que credencio o login 
     Quando acesso "Trocar pacote" no menu 'MEU APP'
     E visualizo algo 
     Então devo receber mensagem de já possuir o melhor pacote contratado 
