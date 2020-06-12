@@ -2,9 +2,9 @@
 @ambiente
 Funcionalidade: Avaliar app android
 
-  @status @plataforma @ambiente @jira
+  @status @plataforma @ambiente @jira @HML
   Cenário: Fluxo de avaliação do APP Meu APP Android
     Dado acesso "Avalie o App" no menu 'MEU APP'
     Quando avalio o APP como 'Incrível'
-    E acesso o link para avaliar na Play Store
-    Então sou direcionado para avaliar o APP na loja
+    E faça alguma coisa
+    Então sou direcionado para avaliar o APP na loja 123
