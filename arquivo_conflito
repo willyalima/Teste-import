@@ -1,8 +1,8 @@
-# language: pt
-@ambiente
-Funcionalidade: Avaliar app Teste
+# language: pt 
+@ambiente @ambiente
+Funcionalidade: Avaliar app Teste compras para conflito
 
-  @status @plataforma @ambiente @jira @HML
+  @status @plataforma @ambiente @jira @HML @coisanova
   Cenário: Fluxo de avaliação do APP Meu APP Android
     Dado acesso "Avalie o App" no menu 'COMPRAS'
     Quando avalio o APP como 'Incrível'
