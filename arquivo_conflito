@@ -2,12 +2,12 @@
 @Android @IOS @ambiente @ambiente
 Funcionalidade: Avaliar app Teste compras para conflito de PR 
 
-  @status @plataforma @ambiente @jira @HML @coisanova
-  Cenário: Fluxo de avaliação do APP Meu APP Teste top
-    Dado acesso "Avalie o App" no menu 'COMPRAS'
-    Quando avalio o APP como 'Legal'
+  @status @plataforma @ambiente @jira @COISA @bootcamp
+  Cenário: Fluxo de avaliação do APP Meu APP Android
+    Dado acesso "Avalie o App" no menu 'MEU APP'
+    Quando avalio o APP como 'Incrível'
     E faça alguma coisa boa
-    Então sou direcionado para avaliar o APP na loja 123
+    Então sou direcionado para avaliar o APP na loja
 
   @status @plataforma @ambiente @jira @HML @coisanova
   Cenário: Mensagem de Upgrade indisponível para cliente com pacote de 25 Mb
@@ -15,3 +15,15 @@ Funcionalidade: Avaliar app Teste compras para conflito de PR
     Quando acesso "Trocar pacote" no menu 'MEU APP'
     E visualizo algo 
     Então devo receber mensagem de já possuir o melhor pacote contratado 
+
+ @status @plataforma @ambiente @jira @HML @coisanova
+  Cenário: Mensagem de Upgrade indisponível para cliente com pacote de 25 Mb
+    Dado que autentico pelo login com um usuário "banda larga solo 25mb"
+    Quando acesso "Trocar pacote" no menu 'MEU APP'
+    Então devo receber mensagem de já possuir o melhor pacote contratado 
+
+ @status @plataforma @ambiente @jira @HML @coisanova
+  Cenário: Mensagem de Upgrade indisponível para cliente com pacote de 25 Mb
+    Dado que autentico pelo login com um usuário "banda larga solo 25mb"
+    Quando acesso "Trocar pacote" no menu 'MEU APP'
+    Então devo receber mensagem de já possuir o melhor pacote contratado
