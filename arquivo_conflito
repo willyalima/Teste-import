@@ -3,8 +3,8 @@
 Funcionalidade: Avaliar app Teste
 
   @status @plataforma @ambiente @jira
-  Cenário: Fluxo de avaliação do APP Meu APP Android
+  Cenário: Fluxo de avaliação do APP Meu APP Teste
     Dado acesso "Avalie o App" no menu 'COMPRAS'
-    Quando avalio o APP como 'Incrível'
+    Quando avalio o APP como 'Legal'
     E acesso o link para avaliar na Play Store
     Então sou direcionado para avaliar o APP na loja
