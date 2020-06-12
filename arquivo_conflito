@@ -1,11 +1,16 @@
 # language: pt 
-@ambiente @ambiente
+@ambiente @ambiente @asuhaushaush @aisjhaisaisj
 Funcionalidade: Avaliar app Teste compras para conflito
 
   @status @plataforma @ambiente @jira @HML @coisanova
-  Cenário: Fluxo de avaliação do APP Meu APP Teste
+  Cenário: Fluxo de avaliação do APP Meu APP Teste top
     Dado acesso "Avalie o App" no menu 'COMPRAS'
     Quando avalio o APP como 'Legal'
-    E faça alguma coisa
+    E faça alguma coisa boa
     Então sou direcionado para avaliar o APP na loja 123
 
+  @status @plataforma @ambiente @jira @HML @coisanova
+  Cenário: Mensagem de Upgrade indisponível para cliente com pacote de 25 Mb
+    Dado que autentico pelo login com um usuário "banda larga solo 25mb"
+    Quando acesso "Trocar pacote" no menu 'MEU APP'
+    Então devo receber mensagem de já possuir o melhor pacote contratado 
